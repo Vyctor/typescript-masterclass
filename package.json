@@ -8,9 +8,10 @@
   "license": "ISC",
   "scripts": {
     "dev": "ts-node-dev --respawn --transpile-only src/main.ts",
-    "build": "tsc"
+    "build": "npx tsc"
   },
   "dependencies": {
+    "pg-promise": "^11.4.3",
     "ts-node": "^10.9.1",
     "typescript": "^5.0.2"
   }
